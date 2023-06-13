@@ -35,7 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🌎 Links
 
-- Solution: []()
-- Live Site: []()
+- Solution: [https://www.frontendmentor.io/solutions/newsletter-signup-form-with-success-message-tailwindcss-zLQbUGQZqv](https://www.frontendmentor.io/solutions/newsletter-signup-form-with-success-message-tailwindcss-zLQbUGQZqv)
+- Live Site: [https://newsletter-signup-aandreluis.vercel.app/](https://newsletter-signup-aandreluis.vercel.app/)
 
 ---
