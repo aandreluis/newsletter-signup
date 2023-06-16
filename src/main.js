@@ -1,5 +1,6 @@
 const signUp = document.querySelector("#signUp")
 const success = document.querySelector("#success")
+const confirmationEmail = document.querySelector("#confirmation-email")
 const form = document.forms.subscribeForm
 const { email, btnSubmit } = form
 
@@ -11,10 +12,11 @@ form.addEventListener("submit", (e) => {
     email.disabled = true
     btnSubmit.disabled = true
     btnSubmit.lastElementChild.classList.toggle("hidden")
-    
+
     signUp.classList.add("hidden")
     signUp.classList.remove("flex", "md:grid")
 
+    confirmationEmail.innerText = email.value
     success.classList.add("flex")
     success.classList.remove("hidden")
   }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/favicon-32x32.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/globals.css">
+    <link rel="stylesheet" href="./src/globals.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,11 +27,14 @@
         class="w-full flex flex-col items-center bg-white animate-fadeIn md:w-[768px] md:h-auto md:p-3 md:grid md:grid-cols-2 md:gap-2 md:justify-center md:rounded-[40px] md:shadow-2xl md:shadow-darkslate-grey lg:w-[80%] lg:h-[600px] lg:pl-10 lg:py-6 xl:w-[900px]"
       >
         <div
-          class="h-64 w-full bg-hero-mobile bg-cover bg-bottom bg-no-repeat md:h-full md:w-[95%] md:order-2 md:bg-hero-desktop md:bg-contain md:bg-center xl:bg-right" aria-hidden="true"
+          class="h-64 w-full bg-hero-mobile bg-cover bg-bottom bg-no-repeat md:h-full md:w-[95%] md:order-2 md:bg-hero-desktop md:bg-contain md:bg-center xl:bg-right"
+          aria-hidden="true"
         ></div>
 
-        <div class="w-full mt-4  py-4 px-7 space-y-5 md:p-8">
-          <h1 class="font-bold text-4xl text-darkslate-grey lg:text-5xl">Stay updated!</h1>
+        <div class="w-full mt-4 py-4 px-7 space-y-5 md:p-8">
+          <h1 class="font-bold text-4xl text-darkslate-grey lg:text-5xl">
+            Stay updated!
+          </h1>
           <p>Join 60,000+ product managers receiving monthly updates on:</p>
           <ul class="list-none space-y-4">
             <li class="ps-8 bg-icon-list bg-no-repeat" aria-hidden="true">
@@ -90,15 +93,16 @@
       >
         <div>
           <div
-            class="h-16 w-full bg-icon-success bg-contain bg-no-repeat mb-8 md:h-14 animate-bounce" aria-hidden="true"
+            class="h-16 w-full bg-icon-success bg-contain bg-no-repeat mb-8 md:h-14 animate-bounce"
+            aria-hidden="true"
           ></div>
           <h2 class="text-4xl font-bold text-darkslate-grey lg:text-5xl">
             Thanks for subscribing!
           </h2>
           <p class="mt-4">
             A confirmation email has been sent to
-            <strong>ash@loremcompany.com</strong>. Please open it and click the
-            button inside to confirm your subscription.
+            <strong id="confirmation-email">example@example.com</strong>. Please
+            open it and click the button inside to confirm your subscription.
           </p>
         </div>
 
